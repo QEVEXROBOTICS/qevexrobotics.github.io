@@ -393,6 +393,7 @@ p {
        2.BUTTON css
 ===========================*/
 .main-btn {
+  margin-top: 2em;
   display: inline-block;
   font-weight: 700;
   text-align: center;
