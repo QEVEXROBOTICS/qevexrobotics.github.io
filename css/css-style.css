@@ -393,7 +393,6 @@ p {
        2.BUTTON css
 ===========================*/
 .main-btn {
-  margin-top: 2em;
   display: inline-block;
   font-weight: 700;
   text-align: center;
@@ -1352,7 +1351,9 @@ p {
   .single-about .about-content .text {
     font-size: 16px;
     color: #121212;
-    margin-top: 16px; }
+    margin-top: 16px;
+    margin-bottom: 2em; 
+  }
 
 /*===== ABOUT 2  =====*/
 .about-area-2 {
@@ -2303,5 +2304,22 @@ p {
   .back-to-top:hover {
     color: #121212;
     background-color: #38ccf9; }
+
+.teamlist {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.teamlist li {
+  display: flex;
+}
+.teamlist .name {
+  font-size: 1.1em;
+  flex-grow: 1;
+}
+.teamlist .description {
+  color: grey;
+  font-weight: lighter;
+  font-size: 0.8em;
+}
 
 /*# sourceMappingURL=style.css.map */
