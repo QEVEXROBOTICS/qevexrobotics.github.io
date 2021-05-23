@@ -3367,3 +3367,38 @@ p {
 
 
 /*# sourceMappingURL=style.css.map */
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+.liquid-button path {
+  cursor: pointer;
+}
+
+// dribbble - twitter
+.dribbble {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+  img {
+    display: block;
+    height: 28px;
+  }
+}
+.twitter {
+  position: fixed;
+  display: block;
+  right: 64px;
+  bottom: 14px;
+  svg {
+    width: 32px;
+    height: 32px;
+    fill: #1da1f2;
+  }
+}
