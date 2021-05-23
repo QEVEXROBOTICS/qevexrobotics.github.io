@@ -2314,11 +2314,13 @@ p {
 }
 .teamlist .name {
   font-size: 1.1em;
+  padding-right: 3em;
   flex-grow: 1;
 }
 .teamlist .description {
   color: grey;
   font-weight: lighter;
+  text-align: right;
   font-size: 0.8em;
 }
 
