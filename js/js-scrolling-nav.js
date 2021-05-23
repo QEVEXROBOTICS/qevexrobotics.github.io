@@ -9,11 +9,10 @@ $(function() {
             if (target.length) {
                 $('html, body').animate({
                     scrollTop: (target.offset().top -70)
-                }, 1200, "easeInOutExpo");
+                }, 700, "easeInOutExpo");
                 return false;
             }
         }
     });
 
 });
-
