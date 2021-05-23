@@ -1,4 +1,5 @@
-0.1/*-----------------------------------------------------------------------------------
+0.1
+/*-----------------------------------------------------------------------------------
 
 Navbar by UI Deck
 
@@ -3346,59 +3347,65 @@ p {
 .teamlist {
     margin-top: 2em;
     margin-bottom: 2em;
-}
-
-.teamlist li {
-    display: flex;
+    width: 100%;
 }
 
 .teamlist .name {
     font-size: 1.1em;
     padding-right: 3em;
-    flex-grow: 1;
+}
+
+.teamlist .arrow {
+    background: -webkit-linear-gradient(0deg, grey, #43cae9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .teamlist .description {
     color: grey;
     font-weight: lighter;
-    text-align: right;
+    /* text-align: right; */
     font-size: 0.8em;
 }
 
-
-/*# sourceMappingURL=style.css.map */
-
-body, html {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  user-select: none;
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    user-select: none;
 }
 
 .liquid-button path {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 // dribbble - twitter
 .dribbble {
-  position: fixed;
-  display: block;
-  right: 20px;
-  bottom: 20px;
-  img {
+    position: fixed;
     display: block;
-    height: 28px;
-  }
+    right: 20px;
+    bottom: 20px;
+    img {
+        display: block;
+        height: 28px;
+    }
 }
+
 .twitter {
-  position: fixed;
-  display: block;
-  right: 64px;
-  bottom: 14px;
-  svg {
-    width: 32px;
-    height: 32px;
-    fill: #1da1f2;
-  }
+    position: fixed;
+    display: block;
+    right: 64px;
+    bottom: 14px;
+    svg {
+        width: 32px;
+        height: 32px;
+        fill: #1da1f2;
+    }
 }
+
+
+/*# sourceMappingURL=style.css.map */
