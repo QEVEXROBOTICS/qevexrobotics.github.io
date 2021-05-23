@@ -3355,13 +3355,22 @@ p {
     padding-right: 3em;
 }
 
+
+/* On mobile, just use a plain solid colour */
+
+@supports (background: -webkit-linear-gradient(0deg, grey, #43cae9)) {
+    .teamlist .arrow {
+        background: -webkit-linear-gradient(0deg, grey, #43cae9);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent !important;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
+
 .teamlist .arrow {
-    background: -webkit-linear-gradient(0deg, grey, #43cae9);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    color: #43cae9;
 }
 
 .teamlist .description {
