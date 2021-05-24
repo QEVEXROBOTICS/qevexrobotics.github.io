@@ -214,8 +214,15 @@
 
     <div>
         <div class="choices">
-            <button type="button" id="iq-choice" class="choice checked" onclick="choose('iq-teams', 'iq-choice', '50%')">IQ</button>
-            <button type=" button " id="edr-choice" class="choice " onclick="choose('edr-teams', 'edr-choice', '50%')">EDR</button>
+            <button type="button" id="iq-choice" class="choice checked" onclick="choose('iq-teams', 'iq-choice')">
+                IQ
+                <span class="arrow"><i class="fas fa-angle-right"></i></span>
+            </button>
+            <button type=" button " id="edr-choice" class="choice " onclick="choose('edr-teams', 'edr-choice')">
+                EDR
+                <span class="arrow"><i class="fas fa-angle-right"></i></span>
+            </button>
+            <i class="fas fa-angle-right arrow"></i>
             <div class="highlight"></div>
         </div>
         <div id="iq-teams" class="team">
