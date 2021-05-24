@@ -15,8 +15,10 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 10) {
             $(".navbar-area").removeClass("sticky");
+            $('.topbar').addClass("top-bg");
         } else{
             $(".navbar-area").addClass("sticky");
+            $('.topbar').removeClass("top-bg");
         }
     });
     

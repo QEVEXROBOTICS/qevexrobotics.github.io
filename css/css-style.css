@@ -2095,7 +2095,6 @@ p {
 .about-area-3 .about-content .text {
     color: #6c6c6c;
     font-size: 20px;
-    font-weight: 500;
     margin-top: 16px;
     line-height: 25px;
 }
@@ -3520,11 +3519,12 @@ html {
     }
 }
 
-.topbar {
-    background: rgba(67, 202, 233, 50%);
+.topbar.top-bg {
+    background: rgba(67, 202, 233, 70%);
     padding: 5px;
     border-radius: 15px;
-    box-shadow: #005366 3px 3px 1px;
+    /* box-shadow: #005366 3px 3px 1px; */
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 16%);
     /* display: inline; */
 }
 >>>>>>> Changed some formatting and some stuff
