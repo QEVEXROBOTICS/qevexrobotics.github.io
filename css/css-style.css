@@ -3430,7 +3430,6 @@ html {
 .choice {
     outline: none;
     border: none;
-    background-color: white;
     flex-grow: 1;
     width: 50%;
     font-size: 3em;
@@ -3473,7 +3472,7 @@ html {
     transition: opacity 1s;
 }
 .choice.checked {
-    background-color: #43cae9;
+    background-color: rgba(67, 202, 233, 50%);
     transition: background-color 1s;
 }
 
