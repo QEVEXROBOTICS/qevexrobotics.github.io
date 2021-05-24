@@ -3430,7 +3430,6 @@ html {
 .choice {
     outline: none;
     border: none;
-    /* background-color: white; */
     flex-grow: 1;
     width: 50%;
     font-size: 3em;
@@ -3440,11 +3439,10 @@ html {
     color: black;
     text-align: center;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 50px;
     margin-left: 30px;
     margin-right: 30px;
-  }
-  
+}
 .choice .arrow {
     height: 0px;
     width: 0px;
@@ -3474,8 +3472,8 @@ html {
     transition: opacity 1s;
 }
 .choice.checked {
-    background-color: #43cae9;
-    transition: background-color 1s;
+    background-color: rgba(67, 202, 233, 50%);
+    transition: background-color 2s;
 }
 
 #teams-link {
@@ -3487,7 +3485,7 @@ html {
 .carousel-title {
     color: transparent !important;
     animation: gradient_swoop 1s infinite ease-in-out;
-    background: linear-gradient(90deg, red 0%,orange 25%, red 75%);
+    background: linear-gradient(135deg, red 0%,orange 25%, red 75%);
     background-clip: text;
     -webkit-background-clip: text;
 }
