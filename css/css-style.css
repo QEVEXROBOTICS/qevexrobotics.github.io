@@ -3461,7 +3461,7 @@ html {
     background-color: rgb(0 0 0 / 16%);
     transition: background-color 1s;
 }
-.choice:hover .arrow {
+.choice:hover:not(.checked) .arrow {
     opacity: 100%;
     transition: opacity 1s;
 }
