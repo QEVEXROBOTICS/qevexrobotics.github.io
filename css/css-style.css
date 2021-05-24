@@ -3473,7 +3473,7 @@ html {
 }
 .choice.checked {
     background-color: rgba(67, 202, 233, 50%);
-    transition: background-color 1s;
+    transition: background-color 2s;
 }
 
 #teams-link {
@@ -3485,7 +3485,7 @@ html {
 .carousel-title {
     color: transparent !important;
     animation: gradient_swoop 1s infinite ease-in-out;
-    background: linear-gradient(90deg, red 0%,orange 25%, red 75%);
+    background: linear-gradient(135deg, red 0%,orange 25%, red 75%);
     background-clip: text;
     -webkit-background-clip: text;
 }
