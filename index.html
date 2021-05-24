@@ -3,6 +3,7 @@
 
 <head>
     <script src="https://kit.fontawesome.com/c19bec00e6.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -211,273 +212,333 @@
     <div class="overlay-right"></div>
 
 
-    <section id="about" class="about-area-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="image mt-50 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="50">
-                        <img src="images/gsquad.jpg" alt="about">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content mt-45 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="50">
-                        <h5 class="sub-title">21549A</h5>
-                        <h3 class="about-title">Gear Squad</h3>
-                        <p class="text">We are a group of year 8 students who love robotics. Since we were chosen to represent QE in September, it truly has been a life changing experience. Whether it be discovering the wonders of technology, engineering and design by
-                            building and programming our robot or working cohesively or arguing as a team, VEX has shown us many ups and downs and is honestly one of the best possible ways we will ever have to equip ourselves for later life. </p>
-                        <table class="teamlist">
-                            <tr>
-                                <td class="name">Chanakya</td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td class="description">Stem Researcher</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Muhammad (babyyoda777)</td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td class="description">Builder/designer</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Anoop</td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td class="description">Programmer</td>
-                            </tr>
-                            <tr>
-                                <td class="name">Sayan</td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td class="description">Programmer</td>
-                            </tr>
-                            <rd>
-                                <td class="name">Chanul</td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td class="description">Builder/designer</td>
-                            </rd>
-                        </table>
-                        <ul class="carousel-btn rounded-buttons">
-                            <li><a class="main-btn rounded-three" href="https://gearsquad21549a.gq">Visit our
-                                    website.</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <div>
+        <div class="choices">
+            <button type="button" id="iq-choice" class="choice checked" onclick="choose('iq-teams', 'iq-choice', '50%')">IQ</button>
+            <button type=" button " id="edr-choice" class="choice " onclick="choose('edr-teams', 'edr-choice', '50%')">EDR</button>
+            <div class="highlight"></div>
         </div>
-        </div>
-    </section>
-
-
-    <section class="about-area-3 about-area-bg-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-last">
-                    <div class="image mt-50 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/images-about-4.png" alt="about">
-                    </div>
-                </div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="about-content mt-45 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <h5 class="sub-title">21549B</h5>
-                        <h3 class="about-title">SuperDrive</h3>
-                        <p class="text">A Year 8 QE team, dedicated to robotics, STEM and just generally having fun!</p>
-                        <table class="teamlist">
-                            <tr>
-                                <td><span class="name">Adokshaj</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Anik</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Kayilai</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Neel</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Pranav</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about-area-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="image mt-50 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="50">
-                        <img src="images/slider-2.jpg" alt="about">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content mt-45 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="50">
-                        <h5 class="sub-title">21549C</h5>
-                        <h3 class="about-title">Overdrive</h3>
-                        <p class="text">A Year 9 QE team, dedicated to robotics, STEM and just generally having fun!</p>
-                        <table class="teamlist">
-                            <tr>
-                                <td><span class="name">Saim</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Shreyaas</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Arush</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Kiaron</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Pavaan</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about-area-3 about-area-bg-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 order-lg-last">
-                    <div class="image mt-50 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <img src="images/cyberstorm.jpg" alt="about">
-                    </div>
-                </div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="about-content mt-45 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s">
-                        <h5 class="sub-title">21549D</h5>
-                        <h3 class="about-title">Cyberstorm</h3>
-                        <p class="text">Hi! We're Cyberstorm, a Year 9 team dedicated to developing resources for VEX. Not only do we strive to follow the design process fully, we program many tools - which may explain why we have won several awards.
-                        </p>
-                        <table class="teamlist">
-                            <tr>
-                                <td><span class="name">Joel (lolgeny)</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">Our programmer (and driver), programming the bot and services</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Shreyas</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-
-                                <td><span class="description">Our STEM researcher, and LRT communicator</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Rayan</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">One of our amazing builders and a skilled driver</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Hadi</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">One of our builders</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Luc</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">Artist and online promoter</span></td>
-                            </tr>
-                        </table>
-                        <ul class="carousel-btn rounded-buttons">
-                            <li><a class="main-btn rounded-three" href="http://cyberstorm.uk.s3-website.eu-west-2.amazonaws.com/index.html">Check us
-                                    out.</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about-area-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="image mt-50 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="50">
-                        <img src="images/images-about-3.png" alt="about">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about-content mt-45 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.6s" data-wow-offset="50">
-                        <h5 class="sub-title">21549E</h5>
-                        <h3 class="about-title">Techfusion</h3>
-                        <p class="text">A Year 8 QE team, dedicated to robotics, STEM and just generally having fun!</p>
-                        <table class="teamlist">
-                            <tr>
-                                <td><span class="name">Joshua</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Zak</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Danyal</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Ishaan</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                            <tr>
-                                <td><span class="name">Shuban</span></td>
-                                <td><i class="fas fa-angle-right arrow"></i></td>
-                                <td><span class="description">A person</span></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="services" class="services-area ">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center pb-20">
-                        <h3 class="title">Blog Posts</h3>
-                        <p class="text">Our take on the way things should we done.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-services mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                        <div class="services-icon">
-                            <i class="lni-rocket"></i>
+        <div id="iq-teams" class="team">
+            <section id="about " class="about-area-3 ">
+                <div class="container " id="iq-teams ">
+                    <div class="row align-items-center ">
+                        <div class="col-lg-6 ">
+                            <div class="image mt-50 wow" data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <img src="images/gsquad.jpg " alt="about ">
+                            </div>
                         </div>
-                        <div class="services-content">
-                            <h5 class="services-title"><a href="./blog.html">Our Mission</a></h5>
-                            <p class="text">Queen Elizabeth's is a state-funded grammar school, with 448 years' experience of producing confident, able and responsible young men...</p>
-                            <a href="./blog.html"></a>
-                            <ul class="carousel-btn rounded-buttons">
-                                <li><a class="main-btn rounded-three" href="./blog.html">Read full post.</a></li>
+                        <div class="col-lg-6 ">
+                            <div class="about-content mt-45 wow fadeInRight " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <h5 class="sub-title ">21549A</h5>
+                                <h3 class="about-title ">Gear Squad</h3>
+                                <p class="text ">We are a group of year 8 students who love robotics. Since we were chosen to represent QE in September, it truly has been a life changing experience. Whether it be discovering the wonders of technology, engineering and
+                                    design by building and programming our robot or working cohesively or arguing as a team, VEX has shown us many ups and downs and is honestly one of the best possible ways we will ever have to equip ourselves for later
+                                    life. </p>
+                                <table class="teamlist ">
+                                    <tr>
+                                        <td class="name ">Chanakya</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Stem Researcher</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name ">Muhammad (babyyoda777)</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Builder/designer</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name ">Anoop</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Programmer</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name ">Sayan</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Programmer</td>
+                                    </tr>
+                                    <rd>
+                                        <td class="name ">Chanul</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Builder/designer</td>
+                                    </rd>
+                                </table>
+                                <ul class="carousel-btn rounded-buttons ">
+                                    <li><a class="main-btn rounded-three " href="https://gearsquad21549a.gq ">Visit our
+                                                website.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about-area-3 about-area-bg-3 ">
+                <div class="container ">
+                    <div class="row align-items-center ">
+                        <div class="col-lg-6 order-lg-last ">
+                            <div class="image mt-50 wow fadeInRight " data-wow-duration="1.5s " data-wow-delay="0.6s ">
+                                <img src="images/images-about-4.png " alt="about ">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-first ">
+                            <div class="about-content mt-45 wow fadeInLeft " data-wow-duration="1.5s " data-wow-delay="0.6s ">
+                                <h5 class="sub-title ">21549B</h5>
+                                <h3 class="about-title ">SuperDrive</h3>
+                                <p class="text ">A Year 8 QE team, dedicated to robotics, STEM and just generally having fun!</p>
+                                <table class="teamlist ">
+                                    <tr>
+                                        <td><span class="name ">Adokshaj</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Anik</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Kayilai</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Neel</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Pranav</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about " class="about-area-3 ">
+                <div class="container ">
+                    <div class="row align-items-center ">
+                        <div class="col-lg-6 ">
+                            <div class="image mt-50 wow fadeInLeft " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <img src="images/slider-2.jpg " alt="about ">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="about-content mt-45 wow fadeInRight " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <h5 class="sub-title ">21549C</h5>
+                                <h3 class="about-title ">Overdrive</h3>
+                                <p class="text ">A Year 9 QE team, dedicated to robotics, STEM and just generally having fun!</p>
+                                <table class="teamlist ">
+                                    <tr>
+                                        <td><span class="name ">Saim</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Shreyaas</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Arush</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Kiaron</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Pavaan</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-area-3 about-area-bg-3 ">
+                <div class="container ">
+                    <div class="row align-items-center ">
+                        <div class="col-lg-6 order-lg-last ">
+                            <div class="image mt-50 wow fadeInRight " data-wow-duration="1.5s " data-wow-delay="0.6s ">
+                                <img src="images/cyberstorm.jpg " alt="about ">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-first ">
+                            <div class="about-content mt-45 wow fadeInLeft " data-wow-duration="1.5s " data-wow-delay="0.6s ">
+                                <h5 class="sub-title ">21549D</h5>
+                                <h3 class="about-title ">Cyberstorm</h3>
+                                <p class="text ">Hi! We're Cyberstorm, a Year 9 team dedicated to developing resources for VEX. Not only do we strive to follow the design process fully, we program many tools - which may explain why we have won several awards.
+                                </p>
+                                <table class="teamlist ">
+                                    <tr>
+                                        <td><span class="name ">Joel (lolgeny)</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">Our programmer (and driver), programming the bot and services</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Shreyas</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+
+                                        <td><span class="description ">Our STEM researcher, and LRT communicator</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Rayan</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">One of our amazing builders and a skilled driver</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Hadi</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">One of our builders</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Luc</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">Artist and online promoter</span></td>
+                                    </tr>
+                                </table>
+                                <ul class="carousel-btn rounded-buttons ">
+                                    <li><a class="main-btn rounded-three " href="http://cyberstorm.uk.s3-website.eu-west-2.amazonaws.com/index.html ">Check us
+                                                out.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about " class="about-area-3 ">
+                <div class="container ">
+                    <div class="row align-items-center ">
+                        <div class="col-lg-6 ">
+                            <div class="image mt-50 wow fadeInLeft " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <img src="images/images-about-3.png " alt="about ">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="about-content mt-45 wow fadeInRight " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <h5 class="sub-title ">21549E</h5>
+                                <h3 class="about-title ">Techfusion</h3>
+                                <p class="text ">A Year 8 QE team, dedicated to robotics, STEM and just generally having fun!</p>
+                                <table class="teamlist ">
+                                    <tr>
+                                        <td><span class="name ">Joshua</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Zak</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Danyal</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Ishaan</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="name ">Shuban</span></td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td><span class="description ">A person</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="edr-teams" class="team">
+            <section id="about" class="about-area-3 ">
+                <div class="container " id="iq-teams ">
+                    <div class="row align-items-center ">
+                        <div class="col-lg-6 ">
+                            <div class="image mt-50 wow fadeInLeft " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <img src="images/tempest.jpg " alt="about ">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="about-content mt-45 wow fadeInRight " data-wow-duration="1.5s " data-wow-delay="0.6s " data-wow-offset="50 ">
+                                <h5 class="sub-title ">20785?</h5>
+                                <h3 class="about-title ">Tempest</h3>
+                                <p class="text ">Tempest Robotics brings together 6 students to compete on robotics' biggest stages. We are a team of passionate and skilled designers, builders, programmers and drivers who always strive to win and give our fans an entertaining
+                                    spectator experience.</p>
+                                <table class="teamlist ">
+                                    <tr>
+                                        <td class="name ">Chanakya</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Stem Researcher</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name ">Muhammad (babyyoda777)</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Builder/designer</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name ">Anoop</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Programmer</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="name ">Sayan</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Programmer</td>
+                                    </tr>
+                                    <rd>
+                                        <td class="name ">Chanul</td>
+                                        <td><i class="fas fa-angle-right arrow "></i></td>
+                                        <td class="description ">Builder/designer</td>
+                                    </rd>
+                                </table>
+                                <ul class="carousel-btn rounded-buttons ">
+                                    <li><a class="main-btn rounded-three " href="https://tempestrobotics.wixsite.com/home ">Visit our
+                                                website.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <section id="services " class="services-area ">
+        <div class="container ">
+            <div class="row justify-content-center ">
+                <div class="col-lg-6 ">
+                    <div class="section-title text-center pb-20 ">
+                        <h3 class="title ">Blog Posts</h3>
+                        <p class="text ">Our take on the way things should we done.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="single-services mt-30 wow fadeInUp " data-wow-duration="1.5s " data-wow-delay="0.2s ">
+                        <div class="services-icon ">
+                            <i class="lni-rocket "></i>
+                        </div>
+                        <div class="services-content ">
+                            <h5 class="services-title "><a href="./blog.html ">Our Mission</a></h5>
+                            <p class="text ">Queen Elizabeth's is a state-funded grammar school, with 448 years' experience of producing confident, able and responsible young men...</p>
+                            <a href="./blog.html "></a>
+                            <ul class="carousel-btn rounded-buttons ">
+                                <li><a class="main-btn rounded-three " href="./blog.html ">Read full post.</a></li>
                             </ul>
 
                         </div>
@@ -489,40 +550,40 @@
 
 
 
-    <footer id="footer" class="footer-area footer-dark">
-        <div class="footer-widget">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Sections</h6>
+    <footer id="footer " class="footer-area footer-dark ">
+        <div class="footer-widget ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="footer-link ">
+                            <h6 class="footer-title ">Sections</h6>
                             <ul>
-                                <li><a href="#about">TEAMS</a></li>
-                                <li><a href="#services">ABOUT</a></li>
-                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#about ">TEAMS</a></li>
+                                <li><a href="#services ">ABOUT</a></li>
+                                <li><a href="# ">BLOG</a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="footer-copyright">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="copyright text-center text-lg-left mt-10">
-                                        <p class="text">Crafted by <a style="color: #38f9d7" rel="nofollow" href="https://babyyoda777.ga">babyyoda777</a> and <a style="color: #38f9d7" rel="nofollow" href="https://github.com/lolgeny">lolgeny</a>. UI Elements from <a style="color: #38f9d7"
-                                                rel="nofollow" href="https://ayroui.com">Ayro UI</a></p>
+                    <div class="footer-copyright ">
+                        <div class="container ">
+                            <div class="row align-items-center ">
+                                <div class="col-lg-5 ">
+                                    <div class="copyright text-center text-lg-left mt-10 ">
+                                        <p class="text ">Crafted by <a style="color: #38f9d7 " rel="nofollow " href="https://babyyoda777.ga ">babyyoda777</a> and <a style="color: #38f9d7 " rel="nofollow " href="https://github.com/lolgeny
+                ">lolgeny</a>. UI Elements from <a style="color: #38f9d7 " rel="nofollow " href="https://ayroui.com ">Ayro UI</a></p>
                                     </div>
                                 </div>
-                                <div class="col-lg-2">
-                                    <div class="footer-logo text-center mt-10">
-                                        <a href="index.html"><img src="images/favicon.png" alt="Logo"></a>
+                                <div class="col-lg-2 ">
+                                    <div class="footer-logo text-center mt-10 ">
+                                        <a href="index.html "><img src="images/favicon.png " alt="Logo "></a>
                                     </div>
                                 </div>
-                                <div class="col-lg-5">
-                                    <ul class="social text-center text-lg-right mt-10">
-                                        <li><a href="https://instagram.com/qebarnet1573"><i
-                                                    class="lni-instagram-original"></i></a></li>
-                                        <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                                <div class="col-lg-5 ">
+                                    <ul class="social text-center text-lg-right mt-10 ">
+                                        <li><a href="https://instagram.com/qebarnet1573 "><i
+                                                    class="lni-instagram-original "></i></a></li>
+                                        <li><a href="# "><i class="lni-linkedin-original "></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -531,59 +592,59 @@
     </footer>
 
 
-    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+    <a href="# " class="back-to-top "><i class="lni-chevron-up "></i></a>
 
 
 
 
 
-    <script data-cfasync="false" src="js/cloudflare-static-email-decode.min.js"></script>
-    <script src="js/vendor-modernizr-3.6.0.min.js"></script>
-    <script src="js/vendor-jquery-1.12.4.min.js"></script>
+    <script data-cfasync="false " src="js/cloudflare-static-email-decode.min.js "></script>
+    <script src="js/vendor-modernizr-3.6.0.min.js "></script>
+    <script src="js/vendor-jquery-1.12.4.min.js "></script>
 
-    <script src="js/js-bootstrap.min.js"></script>
-    <script src="js/js-popper.min.js"></script>
+    <script src="js/js-bootstrap.min.js "></script>
+    <script src="js/js-popper.min.js "></script>
 
-    <script src="js/js-slick.min.js"></script>
+    <script src="js/js-slick.min.js "></script>
 
-    <script src="js/js-isotope.pkgd.min.js"></script>
+    <script src="js/js-isotope.pkgd.min.js "></script>
 
-    <script src="js/js-imagesloaded.pkgd.min.js"></script>
+    <script src="js/js-imagesloaded.pkgd.min.js "></script>
 
-    <script src="js/js-jquery.magnific-popup.min.js"></script>
+    <script src="js/js-jquery.magnific-popup.min.js "></script>
 
-    <script src="js/js-scrolling-nav.js"></script>
-    <script src="js/js-jquery.easing.min.js"></script>
+    <script src="js/js-scrolling-nav.js "></script>
+    <script src="js/js-jquery.easing.min.js "></script>
 
-    <script src="js/js-ajax-contact.js"></script>
+    <script src="js/js-ajax-contact.js "></script>
 
-    <script src="js/js-wow.min.js"></script>
+    <script src="js/js-wow.min.js "></script>
 
-    <script src="js/js-main.js"></script>
+    <script src="js/js-main.js "></script>
 
-    <script data-cfasync="false" src="js/cloudflare-static-email-decode.min.js"></script>
-    <script src="js/vendor-modernizr-3.6.0.min.js"></script>
-    <script src="js/vendor-jquery-1.12.4.min.js"></script>
+    <script data-cfasync="false " src="js/cloudflare-static-email-decode.min.js "></script>
+    <script src="js/vendor-modernizr-3.6.0.min.js "></script>
+    <script src="js/vendor-jquery-1.12.4.min.js "></script>
 
-    <script src="js/js-bootstrap.min.js"></script>
-    <script src="js/js-popper.min.js"></script>
+    <script src="js/js-bootstrap.min.js "></script>
+    <script src="js/js-popper.min.js "></script>
 
-    <script src="js/js-slick.min.js"></script>
+    <script src="js/js-slick.min.js "></script>
 
-    <script src="js/js-isotope.pkgd.min.js"></script>
+    <script src="js/js-isotope.pkgd.min.js "></script>
 
-    <script src="js/js-imagesloaded.pkgd.min.js"></script>
+    <script src="js/js-imagesloaded.pkgd.min.js "></script>
 
-    <script src="js/js-jquery.magnific-popup.min.js"></script>
+    <script src="js/js-jquery.magnific-popup.min.js "></script>
 
-    <script src="js/js-scrolling-nav.js"></script>
-    <script src="js/js-jquery.easing.min.js"></script>
+    <script src="js/js-scrolling-nav.js "></script>
+    <script src="js/js-jquery.easing.min.js "></script>
 
-    <script src="js/js-ajax-contact.js"></script>
+    <script src="js/js-ajax-contact.js "></script>
 
-    <script src="js/js-wow.min.js"></script>
+    <script src="js/js-wow.min.js "></script>
 
-    <script src="js/js-main.js"></script>
+    <script src="js/js-main.js "></script>
 
 </body>
 

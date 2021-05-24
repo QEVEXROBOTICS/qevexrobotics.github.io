@@ -3416,5 +3416,50 @@ html {
     }
 }
 
+.choices {
+    display: flex;
+    justify-content: center;
+    height: 5em;
+    width: 100%;
+    position: sticky;
+    top: 90px;
+    z-index: 100;
+}
+
+.choice {
+    outline: none;
+    border: none;
+    background-color: white;
+    flex-grow: 1;
+    font-size: 3em;
+    font-weight: bold;
+    animation: deselect 1s 1;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 16%);
+}
+.choice.checked {
+    animation: select 1s 1 normal;
+    background-color: #43cae9;
+}
+
+@keyframes select {
+    from {
+        background-color: white;
+        
+    }
+    to {
+        background-color: #43cae9;
+    }
+}
+
+@keyframes deselect {
+    from {
+        background-color: #43cae9;
+        
+    }
+    to {
+        background-color: white;
+    }
+}
+
 
 /*# sourceMappingURL=style.css.map */
